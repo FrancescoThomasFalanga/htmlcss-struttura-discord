@@ -12,8 +12,9 @@
 
 /* nav */
 div.bg-image {
+    display: flex;
     width: auto;
-    height: 660px;
+    height: 680px;
 
     /* test */
     background-color: lightblue;
@@ -65,3 +66,32 @@ div.bg-image {
     background-color: brown;
 }
 /* /nav */
+
+
+
+
+/* main */
+
+div.section {
+    display: flex;
+    width: auto;
+    height: 680px;
+    background-color: blue;
+}
+
+    
+div.big-section {
+    display: flex;
+    width: auto;
+    height: 1100px;
+    background-color: lightsteelblue;
+}
+
+div.small-section {
+    display: flex;
+    width: auto;
+    height: 280px;
+    background-color: lightgreen;
+}
+
+/* /main */
