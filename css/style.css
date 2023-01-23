@@ -101,12 +101,40 @@ div.small-section {
 }
 
 .section .row {
+    display: flex;
     width: 100%;
     height: 680px;
     padding: 120px 0;
 
+
+}
+
+img {
+    width: 678px;
+    height: 440px;
+    
     /* test */
-    background-color: brown;
+    background-color: orange
+}
+
+.infoplus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* test */
+div.paragraph-title {
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+div.paragraph-text {
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
 }
 
 /* /main */
