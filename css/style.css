@@ -1,14 +1,17 @@
+/* general settings */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* -------------------------------*/
 .common-container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
+/* /general settings */
+
 
 /* nav */
 .bg-image {
@@ -19,11 +22,12 @@
     /* test */
     background-color: blue;
 }
+/* -------------------------------*/
 .bg-image1 {
     /* test */
     background-color: blue;
 }
-
+/* -------------------------------*/
 #nav-container {
     display: flex;
     flex-direction: row;
@@ -34,25 +38,19 @@
     /* test */
     background-color: greenyellow;
 }
-
+/* -------------------------------*/
 #logo {
     width: 130px;
     /* test */
     background-color: darkgreen;
 }
 
-#login {
-    width: 130px;
-    
-    /* test */
-    background-color: darkgreen;
-}
-
+/* link list */
 #links {
     display: flex;
     align-items: center;
 }
-
+/* -------------------------------*/
 #links ul {
     display: flex;
     gap: 30px;
@@ -61,7 +59,7 @@
     /* test */
     background-color: greenyellow;
 }
-
+/* -------------------------------*/
 #links li {
     width: 65px;
     height: 35px;
@@ -69,10 +67,19 @@
     /* test */
     background-color: brown;
 }
+/* /link list */
+
+#login {
+    width: 130px;
+    
+    /* test */
+    background-color: darkgreen;
+}
 /* /nav */
 
+
 /* header */
-div.title-main {
+.main-row {
     display: flex;
     flex-direction: column;
     height: 600px;
@@ -83,6 +90,7 @@ div.title-main {
     /* test */
     background-color: blue;
 }
+/* -------------------------------*/
 
 /* test */
 .title {
@@ -90,11 +98,13 @@ div.title-main {
     height: 33%;
     background-color: black;
 }
+/* -------------------------------*/
 .paragraph-text {
     width: 100%;
     height: 33%;
     background-color: yellow;
 }
+/* -------------------------------*/
 .download-open {
     display: flex;
     justify-content: center;
@@ -104,12 +114,14 @@ div.title-main {
     height: 33%;
     background-color: orange;
 }
+/* /test */
 
 /* /header */
 
-/* main */
 
-div.section {
+/* main */
+/* medium section */
+div.medium-container {
     display: flex;
     width: auto;
     height: 680px;
@@ -117,109 +129,23 @@ div.section {
      /* test */
     background-color: blue;
 }
-
-/* big section */
-div.big-section {
-    display: flex;
-    width: auto;
-    height: 1200px;
-
-    /* test */
-    background-color: blue;
-}
-.big-row {
-    display: flex;
-    width: 100%;
-    height: 1200px;
-    padding-top: 120px;
-    padding-bottom: 80px;
-}
-.big-section-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    gap: 30px;
-}
-
-.big-section-title {
-    display: flex;
-    width: 900px;
-    height: 60px;
-
-    /* test */
-    background-color: brown;
-}
-.big-section-paragraph {
-    width: 900px;
-    height: 45px;
-
-    /* test */
-    background-color: orange;
-}
-
-.big-section-img {
-    width: 1200px;
-    height: 835px;
-
-    /* test */
-    background-color: orangered;
-}
-/* /big section */
-
-/* small section */
-div.small-section {
-    display: flex;
-    width: auto;
-    height: 280px;
-
-    /* test */
-    background-color: #f6f6f6;
-}
-.ready-dw {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 50px;
-    width: auto;
-    margin-bottom: 120px;
-
-}
-.ready {
-    width: 600px;
-    height: 60px;
-
-    /* test */
-    background-color: brown;
-}
-.ready1 {
-    width: 150px;
-    height: 45px;
-
-    /* test */
-    background-color: brown;
-}
-/* /small section */
-
-
-.row {
+/* -------------------------------*/
+.medium-row {
     display: flex;
     width: 100%;
     height: 680px;
     padding: 120px 0;
 }
-
-.section-img {
+/* -------------------------------*/
+.medium-img {
     width: 678px;
     height: 440px;
     
     /* test */
     background-color: orange
 }
-
-.infoplus {
+/* -------------------------------*/
+.caption {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,10 +164,105 @@ div.paragraph {
     height: 50%;
     background-color: yellow;
 }
+/* /medium section */
+
+
+/* big section */
+div.big-container {
+    display: flex;
+    width: auto;
+    height: 1200px;
+
+    /* test */
+    background-color: blue;
+}
+/* -------------------------------*/
+.big-row {
+    display: flex;
+    width: 100%;
+    height: 1200px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+/* -------------------------------*/
+.big-section-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+}
+/* -------------------------------*/
+.big-section-title {
+    display: flex;
+    width: 900px;
+    height: 60px;
+
+    /* test */
+    background-color: brown;
+}
+/* -------------------------------*/
+.big-section-paragraph {
+    width: 900px;
+    height: 45px;
+
+    /* test */
+    background-color: orange;
+}
+/* -------------------------------*/
+.big-section-img {
+    width: 1200px;
+    height: 835px;
+
+    /* test */
+    background-color: orangered;
+}
+/* /big section */
+
+
+/* small section */
+div.small-container {
+    display: flex;
+    width: auto;
+    height: 280px;
+
+    /* test */
+    background-color: #f6f6f6;
+}
+/* -------------------------------*/
+.small-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    width: auto;
+    margin-bottom: 120px;
+}
+/* -------------------------------*/
+.pre-download {
+    width: 600px;
+    height: 60px;
+
+    /* test */
+    background-color: brown;
+}
+/* -------------------------------*/
+.download {
+    width: 150px;
+    height: 45px;
+
+    /* test */
+    background-color: brown;
+}
+/* /small section */
+
 /* /main */
 
+
 /* footer */
-div.final-info {
+.support-info-container {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -250,42 +271,43 @@ div.final-info {
     padding-bottom: 65px;
     background-color: #23272a;
 }
-.info-and-more-row {
+/* -------------------------------*/
+.support-row {
     display: flex;
     gap: 20px;
-    width: 1200px;
     height: 360px;
     background-color: red;
 }
 
+
+/* language and social */
 .lan-and-social {
     width: 280px;
     margin-bottom: 55px;
     /* test */
     background-color: orange;
 }
+/* /language and social */
 
-.all-links {
+
+/* all-support */
+.all-support {
     width: 180px;
     margin-bottom: 30px;
 
     /* test */
     background-color: orange;
 }
+/* /all-support */
 
-.signup-row {
+
+/* discord-logo and signup */
+.logo-and-signup {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 70px;
     background-color: orange;
 }
-
-.logoand {
-
-}
-
-.signup {
-
-}
+/* /discord logo and signup */
 /* /footer */
