@@ -55,7 +55,7 @@ div.bg-image {
     list-style-type: none;
     
     /* test */
-    background-color: darkgreen;
+    background-color: greenyellow;
 }
 
 #links li {
@@ -76,6 +76,8 @@ div.section {
     display: flex;
     width: auto;
     height: 680px;
+
+     /* test */
     background-color: blue;
 }
 
@@ -84,14 +86,40 @@ div.big-section {
     display: flex;
     width: auto;
     height: 1100px;
-    background-color: lightsteelblue;
+
+    /* test */
+    background-color: #f6f6f6;
 }
 
 div.small-section {
     display: flex;
     width: auto;
     height: 280px;
-    background-color: lightgreen;
+
+    /* test */
+    background-color: #f6f6f6;
+}
+
+.section .row {
+    width: 100%;
+    height: 680px;
+    padding: 120px 0;
+
+    /* test */
+    background-color: brown;
 }
 
 /* /main */
+
+/* footer */
+
+div.infos {
+    display: flex;
+    width: auto;
+    height: 575px;
+    padding-top: 80px;
+    padding-bottom: 65px;
+    background-color: #23272a;
+}
+
+/* /footer */
