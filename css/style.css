@@ -238,18 +238,26 @@ div.paragraph {
     height: 50%;
     background-color: yellow;
 }
-
 /* /main */
 
 /* footer */
-
-div.infos {
+div.final-info {
     display: flex;
+    flex-direction: column;
     width: auto;
     height: 575px;
     padding-top: 80px;
     padding-bottom: 65px;
     background-color: #23272a;
 }
-
+.info-and-more {
+    width: 1200px;
+    height: 360px;
+    background-color: red;
+}
+.signup {
+    width: 1200px;
+    height: 70px;
+    background-color: orange;
+}
 /* /footer */
