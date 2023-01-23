@@ -250,14 +250,24 @@ div.final-info {
     padding-bottom: 65px;
     background-color: #23272a;
 }
-.info-and-more {
+.info-and-more-row {
     width: 1200px;
     height: 360px;
     background-color: red;
 }
-.signup {
-    width: 1200px;
+.signup-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 70px;
     background-color: orange;
+}
+
+.logoand {
+    
+}
+
+.signup {
+
 }
 /* /footer */
