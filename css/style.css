@@ -251,10 +251,28 @@ div.final-info {
     background-color: #23272a;
 }
 .info-and-more-row {
+    display: flex;
+    gap: 20px;
     width: 1200px;
     height: 360px;
     background-color: red;
 }
+
+.lan-and-social {
+    width: 280px;
+    margin-bottom: 55px;
+    /* test */
+    background-color: orange;
+}
+
+.all-links {
+    width: 180px;
+    margin-bottom: 30px;
+
+    /* test */
+    background-color: orange;
+}
+
 .signup-row {
     display: flex;
     justify-content: space-between;
@@ -264,7 +282,7 @@ div.final-info {
 }
 
 .logoand {
-    
+
 }
 
 .signup {
