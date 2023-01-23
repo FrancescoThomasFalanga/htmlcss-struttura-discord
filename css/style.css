@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.common-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* nav */
+div.bg-image {
+    width: auto;
+    height: 660px;
+
+    /* test */
+    background-color: lightblue;
+}
+
+#nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 80px;
+    /* test */
+    background-color: greenyellow;
+}
+
+#logo {
+    width: 130px;
+    /* test */
+    background-color: darkgreen;
+}
+
+#login {
+    width: 130px;
+    
+    /* test */
+    background-color: darkgreen;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+}
+
+#links ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    
+    /* test */
+    background-color: darkgreen;
+}
+
+#links li {
+    width: 65px;
+    height: 35px;
+
+    /* test */
+    background-color: brown;
+}
+/* /nav */
